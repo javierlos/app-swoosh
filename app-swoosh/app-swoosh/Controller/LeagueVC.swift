@@ -20,10 +20,6 @@ class LeagueVC: UIViewController {
         player = Player()
     }
 	
-	
-	
-	
-	
 	@IBAction func onNextTapped(_ sender: Any) {
 		performSegue(withIdentifier: "skillVCSegue", sender: self)
 	}
@@ -39,12 +35,26 @@ class LeagueVC: UIViewController {
 	@IBAction func onCoedTapped(_ sender: Any) {
 		selectLeague(leagueType: "coed")
 	}
-
-	
 	
 	func selectLeague(leagueType: String){
 		player.desiredLeague = leagueType
 		nextBtn.isHidden = false
 		nextBtn.isEnabled = true
 	}
+	
+	override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+		if let skillVC = segue.destination as? SkillVC {
+			skillVC.player = player
+		}
+	}
+	
+	
 }
+
+
+
+
+
+
+
+

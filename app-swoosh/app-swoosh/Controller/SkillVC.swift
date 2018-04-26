@@ -9,6 +9,8 @@
 import UIKit
 
 class SkillVC: UIViewController {
+	
+	var player: Player!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,8 +22,8 @@ class SkillVC: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-
+	
+	
     /*
     // MARK: - Navigation
 
