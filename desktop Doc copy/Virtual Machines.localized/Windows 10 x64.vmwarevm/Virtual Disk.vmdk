@@ -1,0 +1,36 @@
+# Disk DescriptorFile
+version=1
+encoding="UTF-8"
+CID=fffffffe
+parentCID=ffffffff
+isNativeSnapshot="no"
+createType="twoGbMaxExtentSparse"
+
+# Extent description
+RW 8323072 SPARSE "Virtual Disk-s001.vmdk"
+RW 8323072 SPARSE "Virtual Disk-s002.vmdk"
+RW 8323072 SPARSE "Virtual Disk-s003.vmdk"
+RW 8323072 SPARSE "Virtual Disk-s004.vmdk"
+RW 8323072 SPARSE "Virtual Disk-s005.vmdk"
+RW 8323072 SPARSE "Virtual Disk-s006.vmdk"
+RW 8323072 SPARSE "Virtual Disk-s007.vmdk"
+RW 8323072 SPARSE "Virtual Disk-s008.vmdk"
+RW 8323072 SPARSE "Virtual Disk-s009.vmdk"
+RW 8323072 SPARSE "Virtual Disk-s010.vmdk"
+RW 8323072 SPARSE "Virtual Disk-s011.vmdk"
+RW 8323072 SPARSE "Virtual Disk-s012.vmdk"
+RW 8323072 SPARSE "Virtual Disk-s013.vmdk"
+RW 8323072 SPARSE "Virtual Disk-s014.vmdk"
+RW 8323072 SPARSE "Virtual Disk-s015.vmdk"
+RW 983040 SPARSE "Virtual Disk-s016.vmdk"
+
+# The Disk Data Base 
+#DDB
+
+ddb.adapterType = "lsilogic"
+ddb.geometry.cylinders = "7832"
+ddb.geometry.heads = "255"
+ddb.geometry.sectors = "63"
+ddb.longContentID = "baa3616e58e3bfc819111ff0fffffffe"
+ddb.uuid = "60 00 C2 99 83 e6 b0 79-f7 8f a4 52 fc e6 6a 86"
+ddb.virtualHWVersion = "12"
